@@ -11,15 +11,36 @@
         <img class="big-image" src=".\data\images\andreas-rasmussen-fireworks.jpg">
         <div class="image-banner-overlay">
             <img class="image-banner-icon" src=".\data\images\odin-lined.png">
-            <h1 class="image-banner-text">ODIN</h1>
+            <h1 class="image-banner-text">FIREWORKS IN YOUR EYEBALLS</h1>
         </div>
         <p class="image-credits">Image by Andreas Rasmussen</p>
     </div>
     <div class="form-banner">
-        <form>
-            <input type="text">
-            <input type="date">
+        <h2 class="form-header-text">This is awesome or something! woo woo</h2>
+        <form action="https://httpbin.org/post" method="post">
+            <div class="form-controls">
+                <div class="form-row">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name">
+                </div> 
+                <div class="form-row">
+                    <label for="email">email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="phone_number">Phone Number:</label>
+                    <input type="text" id="phone_number" name="phone_number">
+                </div>
+                <div class="form-row">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" id="confirm_password" name="confirm_password">
+                </div>               
+            </div> 
+            <button class="button" type="submit">Create Account</button>         
         </form>
+        <h3 class="form-footer-text">Already have an Account? <a href="not a link">Log In</a> </h3>
     </div>
 </body>
 </html>
